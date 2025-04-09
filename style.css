@@ -1,0 +1,47 @@
+body {
+  background-image: url(https://wallpapers.com/images/hd/uefa-champions-league-star-bowl-rlsrfh81jsb88ed1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbfcfc;
+  background-color: rgb(238, 237, 247);
+}
+
+#container {
+    display: flex;
+}
+
+.team {
+    background-color: rgba(240, 240, 240, 0.2); /* Yarı saydam arka plan */
+    backdrop-filter: blur(10px); /* Arka plan bulanıklaştırma */
+    color: #ffffff; /* Yazı rengini beyaz yap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Hafif gölge */
+}
+
+/* Buton stilleri */
+button {
+    background-color: #333; /* Koyu gri arka plan */
+    color: #ffffff; /* Beyaz yazı */
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #555; /* Hover efekti ile biraz daha açık gri */
+}
